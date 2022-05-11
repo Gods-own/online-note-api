@@ -22,13 +22,19 @@ Route::middleware(['auth:sanctum'])->group(function() {
 
     Route::get('/folders', [FolderController::class, 'index']);
 
-    Route::post('/folder', [FolderController::class, 'store']);
+    Route::post('/folders', [FolderController::class, 'store']);
 
     Route::put('/folders/{folder}', [FolderController::class, 'update']);
+
+    Route::delete('/folders/{folder}', [FolderController::class, 'destroy']);
 
     Route::get('/folders/{folder}/notes', [NoteController::class, 'index']);
 
     Route::post('/folders/{folder}/notes', [NoteController::class, 'store']);
+
+    Route::put('/notes/{note}', [NoteController::class, 'update']);
+
+    Route::delete('/notes/{note}', [NoteController::class, 'destroy']);
 });
 
 Route::post('/register', [RegisterController::class, 'store']);
@@ -36,7 +42,8 @@ Route::post('/register', [RegisterController::class, 'store']);
 Route::post('/login', [LoginController::class, 'login']);
 
 Route::post('/logout', [LogoutController::class, 'logout']);
-// Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-//     return $request->user();
-// });
+
+Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
+    return $request->user();
+});
 

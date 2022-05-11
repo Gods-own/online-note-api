@@ -6,6 +6,7 @@ use Exception;
 use App\Models\Folder;
 use App\Models\Note;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class NoteController extends Controller {
 
@@ -24,6 +25,8 @@ class NoteController extends Controller {
     public function store(Request $request, Folder $folder) {
         try{
 
+            $user = Auth::user();
+
             $validatedData = $request->validate([
                 'title' => ['max:60'],
                 'body' => ['required']
@@ -32,6 +35,7 @@ class NoteController extends Controller {
             $note = new Note();
 
             $note->fill($request->all());
+            $note->user_id = $user->id;
             $note->folder_id = $request->folder->id;
             // $note = Note::create([
             //     'title' => $validatedData['title'],
@@ -43,6 +47,40 @@ class NoteController extends Controller {
         } catch(Exception $ex) {
             $response = [
                 'message' => 'This is a bad request'
+            ];
+
+            return response($response, 400);
+        }
+    }
+
+    public function update(Request $request, Note $note) {
+        try{
+            $user = Auth::user();
+
+            $validatedData = $request->validate([
+                'title' => ['max:60'],
+                'body' => ['required']
+            ]);
+
+            $note->where([
+                'id' => $note->id
+                ])->update($request->all());
+
+            return response($note, 204);
+        } catch(Exception $ex) {}
+        
+    }
+
+    public function destroy(Note $note) {
+        try{
+            $folder->delete();
+            $response = [
+                'message' => 'Item deleted'
+            ];
+            return response($response, 200);
+        } catch(Exception $ex) {
+            $response = [
+                'message' => 'Sorry, something went wrong'
             ];
 
             return response($response, 400);

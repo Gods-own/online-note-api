@@ -15,8 +15,10 @@ class CreateNotesTable extends Migration
     {
         Schema::create('notes', function (Blueprint $table) {
             $table->id();
+            $table->unsignedBiginteger('user_id');
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
             $table->unsignedBiginteger('folder_id');
-            $table->foreign('folder_id')->references('id')->on('folders');
+            $table->foreign('folder_id')->references('id')->on('folders')->onDelete('cascade');
             $table->string('title')->nullable();
             $table->string('body');
             $table->timestamps();

@@ -15,6 +15,8 @@ class CreateFoldersTable extends Migration
     {
         Schema::create('folders', function (Blueprint $table) {
             $table->id()->unsigned();
+            $table->unsignedBiginteger('user_id');
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
             $table->string('folder_name');
             $table->integer('total_notes')->default(0);
             $table->timestamps();
