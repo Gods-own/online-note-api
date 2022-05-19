@@ -7,13 +7,15 @@ use App\Models\Folder;
 use App\Models\Note;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use App\Http\Resources\NoteResource;
 
 class NoteController extends Controller {
 
     public function index(Folder $folder) {
         try{
             $notes = Note::where('folder_id', $folder->id)->get();
-            return response($notes, 200);
+            return new NoteResource($notes);
+
         } catch(Exception $ex) {
             $response = [
                 'message' => 'Sorry, something went wrong'
@@ -43,7 +45,9 @@ class NoteController extends Controller {
             // ]);
             $note->save();
 
-            return response($note, 201);
+            return new NoteResource($note);
+
+            // return response($note, 201);
         } catch(Exception $ex) {
             $response = [
                 'message' => 'This is a bad request'
@@ -66,7 +70,9 @@ class NoteController extends Controller {
                 'id' => $note->id
                 ])->update($request->all());
 
-            return response($note, 204);
+            return new NoteResource($note);
+
+            // return response($note, 204);
         } catch(Exception $ex) {}
         
     }

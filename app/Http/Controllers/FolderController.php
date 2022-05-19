@@ -6,6 +6,7 @@ use Exception;
 use App\Models\Folder;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use App\Http\Resources\FolderResource;
 
 class FolderController extends Controller
 {
@@ -16,7 +17,8 @@ class FolderController extends Controller
 
             $folders = Folder::where('user_id', $user->id)->get();
 
-            return response($folders, 200);
+            return new FolderResource($folders);
+
         } catch(Exception $ex) {
             $response = [
                 'message' => 'Sorry, something went wrong'
@@ -40,7 +42,9 @@ class FolderController extends Controller
                 'folder_name' => $validatedData['folder_name']
             ]);
 
-            return response($folder, 201);
+            return new FolderResource($folder);
+
+            // return response($folder, 201);
 
         }catch(Exception $ex) {
             $response = [
@@ -63,7 +67,9 @@ class FolderController extends Controller
                 'id' => $folder->id
                 ])->update($request->all());
 
-            return response($folder, 204);
+            return new FolderResource($folder);    
+
+            // return response($folder, 204);
         } catch(Exception $ex) {
             $response = [
                 'message' => 'Sorry, something went wrong'

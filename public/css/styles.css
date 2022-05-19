@@ -1,0 +1,163 @@
+button {
+    outline: none;
+    border: none;
+    color: white;
+}
+
+ul{
+    list-style-type: none;
+}
+
+body {
+    /* background-color: #f7f4f4; */
+    background-color: white;
+}
+
+h2, h3{
+    font-weight: bolder;
+}
+
+p{
+    font-size: 1rem;
+}
+
+/* main{
+    min-height: 100vh;
+    background-image: url('/images/backgroungImg.png');
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+} */
+
+.logo-img{
+    width: 50px;
+}
+
+nav {
+    background-color: #6F84FF;
+    padding: 0.5rem 1.5rem;
+    color: white;    
+}
+
+.note-brand{
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+    font-size: 1.4rem;
+}
+
+nav button {
+    background-color: transparent;
+    font-size: 1.3rem;
+}
+
+.navigation-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.navigation-list{
+    display: none;
+}
+
+main{
+    padding: 1rem 0.8em;
+}
+
+.note-list{
+    padding: 0;
+    border-radius: 5px;
+    background-color: white;
+    padding: 1rem;
+}
+
+.note-list h3, .note-list p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.note-list button{
+    font-size: 1.3rem;
+    background-color: transparent;
+}
+
+.edit-btn{
+    color: green;
+}
+
+.delete-btn{
+    color: red;
+}
+
+.search-form {
+    margin-bottom: 1em;
+    padding: 0 0.4rem;
+}
+
+.search-form input {
+    width: 100%;
+    border-radius: 15px;
+    padding: 0.4rem;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+}
+
+.compose-form-div{
+    background-color: white;
+    padding: 0.8rem;
+}
+
+.compose-form input, .compose-form textarea {
+    width: 100%;
+    padding: 0.4rem;
+    outline: none;
+    border: 1px solid rgb(161, 157, 157);
+    border-radius: 5px;
+}
+
+.compose-form textarea {
+    min-height: 40vh;
+}
+
+.input-div{
+    margin-bottom: 1rem;
+}
+
+.compose-form button {
+    background-color: #6F84FF;
+    color: white;
+    padding: 0.4rem 1.5rem;
+    border-radius: 7px;
+}
+
+.compose-form-btn-div{
+    text-align: center;
+}
+
+.note-view-body {
+    margin-top: 1.7rem;
+}
+
+.folder-flex-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    justify-content: space-between;
+}
+
+.folder-div {
+    text-align: center;
+    font-weight: bold;
+}
+
+.folder-div:hover{
+    background-color: #e8ebff;
+}
+
+.folder-div img{
+    width: 150px;
+}
+
