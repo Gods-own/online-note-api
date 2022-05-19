@@ -42,114 +42,123 @@
 
             <main>
 
-                <!-- <form class="search-form">
-                    <div>
-                        <input placeholder="Search"/>
-                    </div>
-                </form>
+                <section class="note-section-first">
+                    <form class="search-form">
+                        <div>
+                            <input placeholder="Search"/>
+                        </div>
+                    </form>
 
-                <ul class="note-list">
-                    <li>
-                        <h3>The mantle of Deborah as read in the book of Judges 16, where deborah delivered the people of isreal from the philistines</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, ad. Laboriosam officia mollitia nihil beatae officiis vero corporis eligendi, reprehenderit saepe inventore! Dolorem dolor praesentium nulla eaque magni quis veritatis.</p>
+                    <ul class="note-list">
+                        <li>
+                            <h3>The mantle of Deborah as read in the book of Judges 16, where deborah delivered the people of isreal from the philistines</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, ad. Laboriosam officia mollitia nihil beatae officiis vero corporis eligendi, reprehenderit saepe inventore! Dolorem dolor praesentium nulla eaque magni quis veritatis.</p>
+                            <hr>
+                        </li>
+                        <li>
+                            <h3>The mantle of Deborah as read in the book of Judges 16, where deborah delivered the people of isreal from the philistines</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, ad. Laboriosam officia mollitia nihil beatae officiis vero corporis eligendi, reprehenderit saepe inventore! Dolorem dolor praesentium nulla eaque magni quis veritatis.</p>
+                            <hr>
+                        </li>
+                        <li>
+                            <h3>The mantle of Deborah as read in the book of Judges 16, where deborah delivered the people of isreal from the philistines</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, ad. Laboriosam officia mollitia nihil beatae officiis vero corporis eligendi, reprehenderit saepe inventore! Dolorem dolor praesentium nulla eaque magni quis veritatis.</p>
+                            <hr>
+                        </li>
+                        <li>
+                            <h3>The mantle of Deborah as read in the book of Judges 16, where deborah delivered the people of isreal from the philistines</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, ad. Laboriosam officia mollitia nihil beatae officiis vero corporis eligendi, reprehenderit saepe inventore! Dolorem dolor praesentium nulla eaque magni quis veritatis.</p>
+                            <hr>
+                        </li>
+                        <li>
+                            <h3>The mantle of Deborah as read in the book of Judges 16, where deborah delivered the people of isreal from the philistines</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, ad. Laboriosam officia mollitia nihil beatae officiis vero corporis eligendi, reprehenderit saepe inventore! Dolorem dolor praesentium nulla eaque magni quis veritatis.</p>
+                            <hr>
+                        </li>
+                        <li>
+                            <h3>The mantle of Deborah as read in the book of Judges 16, where deborah delivered the people of isreal from the philistines</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, ad. Laboriosam officia mollitia nihil beatae officiis vero corporis eligendi, reprehenderit saepe inventore! Dolorem dolor praesentium nulla eaque magni quis veritatis.</p>
+                            <hr>
+                        </li>
+                        <li>
+                            <h3>The mantle of Deborah as read in the book of Judges 16, where deborah delivered the people of isreal from the philistines</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, ad. Laboriosam officia mollitia nihil beatae officiis vero corporis eligendi, reprehenderit saepe inventore! Dolorem dolor praesentium nulla eaque magni quis veritatis.</p>
+                            <hr>
+                        </li>
+                        <li>
+                            <h3>The mantle of Deborah as read in the book of Judges 16, where deborah delivered the people of isreal from the philistines</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, ad. Laboriosam officia mollitia nihil beatae officiis vero corporis eligendi, reprehenderit saepe inventore! Dolorem dolor praesentium nulla eaque magni quis veritatis.</p>
+                            <hr>
+                        </li>
+                        <li>
+                            <h3>The mantle of Deborah as read in the book of Judges 16, where deborah delivered the people of isreal from the philistines</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, ad. Laboriosam officia mollitia nihil beatae officiis vero corporis eligendi, reprehenderit saepe inventore! Dolorem dolor praesentium nulla eaque magni quis veritatis.</p>
+                            <hr>
+                        </li>
+                        <li>
+                            <h3>The mantle of Deborah as read in the book of Judges 16, where deborah delivered the people of isreal from the philistines</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, ad. Laboriosam officia mollitia nihil beatae officiis vero corporis eligendi, reprehenderit saepe inventore! Dolorem dolor praesentium nulla eaque magni quis veritatis.</p>
+                            <hr>
+                        </li>
+                        <li>
+                            <h3>The mantle of Deborah as read in the book of Judges 16, where deborah delivered the people of isreal from the philistines</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, ad. Laboriosam officia mollitia nihil beatae officiis vero corporis eligendi, reprehenderit saepe inventore! Dolorem dolor praesentium nulla eaque magni quis veritatis.</p>
+                            <hr>
+                        </li>
+                        <li>
+                            <h3>The mantle of Deborah as read in the book of Judges 16, where deborah delivered the people of isreal from the philistines</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, ad. Laboriosam officia mollitia nihil beatae officiis vero corporis eligendi, reprehenderit saepe inventore! Dolorem dolor praesentium nulla eaque magni quis veritatis.</p>
+                            <hr>
+                        </li>
+                        <li>
+                            <h3>The mantle of Deborah as read in the book of Judges 16, where deborah delivered the people of isreal from the philistines</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, ad. Laboriosam officia mollitia nihil beatae officiis vero corporis eligendi, reprehenderit saepe inventore! Dolorem dolor praesentium nulla eaque magni quis veritatis.</p>
+                            <hr>
+                        </li>
+                        <li>
+                            <h3>The mantle of Deborah as read in the book of Judges 16, where deborah delivered the people of isreal from the philistines</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, ad. Laboriosam officia mollitia nihil beatae officiis vero corporis eligendi, reprehenderit saepe inventore! Dolorem dolor praesentium nulla eaque magni quis veritatis.</p>
+                            <hr>
+                        </li>
+                        <li>
+                            <h3>The mantle of Deborah as read in the book of Judges 16, where deborah delivered the people of isreal from the philistines</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, ad. Laboriosam officia mollitia nihil beatae officiis vero corporis eligendi, reprehenderit saepe inventore! Dolorem dolor praesentium nulla eaque magni quis veritatis.</p>
+                            <hr>
+                        </li>
+                    </ul>
+                </section>
+                
+                <!-- <section class="note-section-second">
+                    <form class="compose-form">
+                        <div class="compose-form-div">
+                            <div class="input-div">
+                                <label for="note-title">Title</label>
+                                <input id="note-title"/>
+                            </div>
+                            <div class="input-div">
+                                <label for="note-body">Body</label>
+                                <textarea id="note-body"></textarea>
+                            </div>
+                            <div class="compose-form-btn-div">
+                                <button>Add Note</button>
+                            </div>
+                        </div>
+                    </form>
+                </section> -->
+
+                <section class="note-section-second">
+                    <h2>The mantle of Deborah as read in the book of Judges 16, where deborah delivered the people of isreal from the philistines</h2>
+                    <p class="note-view-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem rerum labore eveniet voluptate, repellendus vero at qui ab sint doloribus aliquam voluptatum harum ad facilis fugit exercitationem eligendi consequatur iusto.
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam assumenda doloremque harum, officia nam animi ut non labore commodi hic doloribus ullam minima fugiat totam eveniet tempore cum deleniti. Similique?
+                    </p>
+                    <div>
                         <button class="edit-btn"><i class="las la-edit"></i></button>
                         <button class="delete-btn"><i class="las la-trash"></i></button>
-                        <hr>
-                    </li>
-                    <li>
-                        <h3>The mantle of Deborah as read in the book of Judges 16, where deborah delivered the people of isreal from the philistines</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, ad. Laboriosam officia mollitia nihil beatae officiis vero corporis eligendi, reprehenderit saepe inventore! Dolorem dolor praesentium nulla eaque magni quis veritatis.</p>
-                        <hr>
-                    </li>
-                    <li>
-                        <h3>The mantle of Deborah as read in the book of Judges 16, where deborah delivered the people of isreal from the philistines</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, ad. Laboriosam officia mollitia nihil beatae officiis vero corporis eligendi, reprehenderit saepe inventore! Dolorem dolor praesentium nulla eaque magni quis veritatis.</p>
-                        <hr>
-                    </li>
-                    <li>
-                        <h3>The mantle of Deborah as read in the book of Judges 16, where deborah delivered the people of isreal from the philistines</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, ad. Laboriosam officia mollitia nihil beatae officiis vero corporis eligendi, reprehenderit saepe inventore! Dolorem dolor praesentium nulla eaque magni quis veritatis.</p>
-                        <hr>
-                    </li>
-                    <li>
-                        <h3>The mantle of Deborah as read in the book of Judges 16, where deborah delivered the people of isreal from the philistines</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, ad. Laboriosam officia mollitia nihil beatae officiis vero corporis eligendi, reprehenderit saepe inventore! Dolorem dolor praesentium nulla eaque magni quis veritatis.</p>
-                        <hr>
-                    </li>
-                    <li>
-                        <h3>The mantle of Deborah as read in the book of Judges 16, where deborah delivered the people of isreal from the philistines</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, ad. Laboriosam officia mollitia nihil beatae officiis vero corporis eligendi, reprehenderit saepe inventore! Dolorem dolor praesentium nulla eaque magni quis veritatis.</p>
-                        <hr>
-                    </li>
-                    <li>
-                        <h3>The mantle of Deborah as read in the book of Judges 16, where deborah delivered the people of isreal from the philistines</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, ad. Laboriosam officia mollitia nihil beatae officiis vero corporis eligendi, reprehenderit saepe inventore! Dolorem dolor praesentium nulla eaque magni quis veritatis.</p>
-                        <hr>
-                    </li>
-                    <li>
-                        <h3>The mantle of Deborah as read in the book of Judges 16, where deborah delivered the people of isreal from the philistines</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, ad. Laboriosam officia mollitia nihil beatae officiis vero corporis eligendi, reprehenderit saepe inventore! Dolorem dolor praesentium nulla eaque magni quis veritatis.</p>
-                        <hr>
-                    </li>
-                    <li>
-                        <h3>The mantle of Deborah as read in the book of Judges 16, where deborah delivered the people of isreal from the philistines</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, ad. Laboriosam officia mollitia nihil beatae officiis vero corporis eligendi, reprehenderit saepe inventore! Dolorem dolor praesentium nulla eaque magni quis veritatis.</p>
-                        <hr>
-                    </li>
-                    <li>
-                        <h3>The mantle of Deborah as read in the book of Judges 16, where deborah delivered the people of isreal from the philistines</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, ad. Laboriosam officia mollitia nihil beatae officiis vero corporis eligendi, reprehenderit saepe inventore! Dolorem dolor praesentium nulla eaque magni quis veritatis.</p>
-                        <hr>
-                    </li>
-                    <li>
-                        <h3>The mantle of Deborah as read in the book of Judges 16, where deborah delivered the people of isreal from the philistines</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, ad. Laboriosam officia mollitia nihil beatae officiis vero corporis eligendi, reprehenderit saepe inventore! Dolorem dolor praesentium nulla eaque magni quis veritatis.</p>
-                        <hr>
-                    </li>
-                    <li>
-                        <h3>The mantle of Deborah as read in the book of Judges 16, where deborah delivered the people of isreal from the philistines</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, ad. Laboriosam officia mollitia nihil beatae officiis vero corporis eligendi, reprehenderit saepe inventore! Dolorem dolor praesentium nulla eaque magni quis veritatis.</p>
-                        <hr>
-                    </li>
-                    <li>
-                        <h3>The mantle of Deborah as read in the book of Judges 16, where deborah delivered the people of isreal from the philistines</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, ad. Laboriosam officia mollitia nihil beatae officiis vero corporis eligendi, reprehenderit saepe inventore! Dolorem dolor praesentium nulla eaque magni quis veritatis.</p>
-                        <hr>
-                    </li>
-                    <li>
-                        <h3>The mantle of Deborah as read in the book of Judges 16, where deborah delivered the people of isreal from the philistines</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, ad. Laboriosam officia mollitia nihil beatae officiis vero corporis eligendi, reprehenderit saepe inventore! Dolorem dolor praesentium nulla eaque magni quis veritatis.</p>
-                        <hr>
-                    </li>
-                    <li>
-                        <h3>The mantle of Deborah as read in the book of Judges 16, where deborah delivered the people of isreal from the philistines</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, ad. Laboriosam officia mollitia nihil beatae officiis vero corporis eligendi, reprehenderit saepe inventore! Dolorem dolor praesentium nulla eaque magni quis veritatis.</p>
-                        <hr>
-                    </li>
-                </ul> -->
-                <!-- <form class="compose-form">
-                    <div class="compose-form-div">
-                        <div class="input-div">
-                            <label for="note-title">Title</label>
-                            <input id="note-title"/>
-                        </div>
-                        <div class="input-div">
-                            <label for="note-body">Body</label>
-                            <textarea id="note-body"></textarea>
-                        </div>
-                        <div class="compose-form-btn-div">
-                            <button>Add Note</button>
-                        </div>
                     </div>
-                </form> -->
+                </section>
 
-                <!-- <h2>The mantle of Deborah as read in the book of Judges 16, where deborah delivered the people of isreal from the philistines</h2>
-                <p class="note-view-body">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem rerum labore eveniet voluptate, repellendus vero at qui ab sint doloribus aliquam voluptatum harum ad facilis fugit exercitationem eligendi consequatur iusto.
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam assumenda doloremque harum, officia nam animi ut non labore commodi hic doloribus ullam minima fugiat totam eveniet tempore cum deleniti. Similique?
-                </p> -->
-
-                <div class="folder-flex-container">
+                <!-- <div class="folder-flex-container">
                     <div class="folder-div">
                         <img src="{{ asset('images/folder-icon.png') }}">
                         <p>Thoughts</p>
@@ -194,7 +203,7 @@
                         <img src="{{ asset('images/folder-icon.png') }}">
                         <p>Thoughts</p>
                     </div>       
-                </div>
+                </div> -->
             </main>
 
         </div>
